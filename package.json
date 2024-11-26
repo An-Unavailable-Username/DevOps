@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "scripts": {
     "test": "mocha",
     "test-coverage": "nyc --check-coverage=true --statements=100 mocha"
@@ -11,7 +10,7 @@
   "author": "YOUR NAME",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^8.2.1",
+    "mocha": "^10.8.2",
     "nyc": "^17.1.0"
   }
 }
